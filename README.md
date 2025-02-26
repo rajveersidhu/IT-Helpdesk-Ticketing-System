@@ -29,54 +29,55 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
 ---
 ## 📂 Project Structure
 ```
-📂 IT-Helpdesk-Ticketing-System
- ├── 📂 src
- │    ├── 📂 main
- │    │    ├── 📂 java/com/helpdesk
- │    │    │    ├── 📂 controller
- │    │    │    │    ├── TicketController.java
- │    │    │    │    ├── UserController.java
- │    │    │    │    ├── AuthController.java   # NEW (Handles login & JWT generation)
- │    │    │    ├── 📂 model
- │    │    │    │    ├── Ticket.java
- │    │    │    │    ├── User.java
- │    │    │    │    ├── enums
- │    │    │    │    │    ├── Priority.java
- │    │    │    │    │    ├── Status.java
- │    │    │    │    │    ├── Role.java
- │    │    │    ├── 📂 repository
- │    │    │    │    ├── TicketRepository.java
- │    │    │    │    ├── UserRepository.java
- │    │    │    ├── 📂 service
- │    │    │    │    ├── TicketService.java
- │    │    │    │    ├── UserService.java
- │    │    │    ├── 📂 security
- │    │    │    │    ├── JwtUtil.java         # NEW (JWT token utility)
- │    │    │    │    ├── JwtFilter.java       # NEW (Intercepts and validates JWT)
- │    │    │    │    ├── SecurityConfig.java  # NEW (Spring Security configuration)
- │    │    │    ├── ITHelpdeskApplication.java
- │    │    ├── 📂 resources
- │    │    │    ├── application.properties
- ├── 📄 pom.xml
- ├── 📄 README.md
-
-```
-📂 IT-Helpdesk-Frontend
- ├── 📂 public
- │    ├── index.html
- ├── 📂 src
- │    ├── 📂 components
- │    │    ├── Login.js         # User authentication
- │    │    ├── Dashboard.js     # Viewing & managing tickets
- │    │    ├── CreateTicket.js  # Form to submit new tickets
- │    │    ├── Navbar.js        # Top navigation bar
- │    ├── 📂 services
- │    │    ├── authService.js   # Handles login & JWT storage
- │    │    ├── ticketService.js # Handles ticket API interactions
- │    ├── App.js                # Main application
- │    ├── index.js              # Entry point
- ├── 📄 package.json
- ├── 📄 README.md
+📂 IT-Helpdesk-System
+ ├── 📂 backend                   # Spring Boot backend
+ │    ├── 📂 src/main/java/com/helpdesk
+ │    │    ├── 📂 controller        # API endpoints
+ │    │    │    ├── AuthController.java
+ │    │    │    ├── TicketController.java
+ │    │    │    ├── UserController.java
+ │    │    ├── 📂 model             # Data models (entities)
+ │    │    │    ├── Ticket.java
+ │    │    │    ├── User.java
+ │    │    │    ├── enums
+ │    │    │    │    ├── Priority.java
+ │    │    │    │    ├── Status.java
+ │    │    │    │    ├── Role.java
+ │    │    ├── 📂 repository        # Data access layer
+ │    │    │    ├── TicketRepository.java
+ │    │    │    ├── UserRepository.java
+ │    │    ├── 📂 service           # Business logic
+ │    │    │    ├── TicketService.java
+ │    │    │    ├── UserService.java
+ │    │    ├── 📂 security          # JWT-based authentication & security
+ │    │    │    ├── JwtUtil.java
+ │    │    │    ├── JwtFilter.java
+ │    │    │    ├── SecurityConfig.java
+ │    │    ├── ITHelpdeskApplication.java  # Main application entry
+ │    ├── 📂 src/main/resources
+ │    │    ├── application.properties     # Database & security configs
+ │    ├── 📄 pom.xml                       # Maven dependencies
+ │    ├── 📄 README.md                     # Backend documentation
+ │
+ ├── 📂 frontend                  # React.js frontend
+ │    ├── 📂 public
+ │    │    ├── index.html
+ │    ├── 📂 src
+ │    │    ├── 📂 components       # UI components
+ │    │    │    ├── Login.js
+ │    │    │    ├── Dashboard.js
+ │    │    │    ├── CreateTicket.js
+ │    │    │    ├── Navbar.js
+ │    │    ├── 📂 services         # API service calls
+ │    │    │    ├── authService.js
+ │    │    │    ├── ticketService.js
+ │    │    ├── App.js              # Main application file
+ │    │    ├── index.js            # React entry point
+ │    ├── 📄 package.json          # Node.js dependencies
+ │    ├── 📄 README.md              # Frontend documentation
+ │
+ ├── 📄 .gitignore                # Ignore unnecessary files
+ ├── 📄 README.md                 # Monorepo documentation
 
 ---
 
