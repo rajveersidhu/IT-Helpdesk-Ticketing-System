@@ -27,7 +27,8 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
 - **JavaFX** (for desktop UI) OR **React.js** (for web UI)
 
 ---
-
+## 📂 Project Structure
+```
 📂 IT-Helpdesk-Ticketing-System
  ├── 📂 src
  │    ├── 📂 main
@@ -55,7 +56,7 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    ├── application.properties
  ├── 📂 pom.xml
  ├── 📂 README.md
-
+ ├── .gitignore
 ```
 
 ---
