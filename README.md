@@ -38,6 +38,7 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    ├── UserController.java
  │    │    ├── 📂 config
  │    │    │    ├── MailConfig.java   # NEW: Configures email settings
+ │    │    │    ├── WebSocketConfig.java     # NEW: Configures WebSocket
  │    │    ├── 📂 model             # Data models (entities)
  │    │    │    ├── Ticket.java
  │    │    │    ├── User.java
@@ -52,6 +53,7 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    ├── TicketService.java
  │    │    │    ├── UserService.java
  │    │    │    ├── EmailService.java  # NEW: Handles sending emails
+ │    │    │    ├── NotificationService.java  # NEW: WebSocket notifications
  │    │    ├── 📂 security          # JWT-based authentication & security
  │    │    │    ├── JwtUtil.java
  │    │    │    ├── JwtFilter.java
@@ -71,9 +73,11 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    ├── Dashboard.js
  │    │    │    ├── CreateTicket.js
  │    │    │    ├── Navbar.js
+ │    │    │    ├── Notifications.js  # NEW: WebSocket listener component
  │    │    ├── 📂 services         # API service calls
  │    │    │    ├── authService.js
  │    │    │    ├── ticketService.js
+ │    │    │    ├── websocketService.js  # NEW: Handles WebSocket connection
  │    │    ├── App.js              # Main application file
  │    │    ├── index.js            # React entry point
  │    ├── 📄 package.json          # Node.js dependencies
