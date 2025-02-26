@@ -36,6 +36,7 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    ├── 📂 controller
  │    │    │    │    ├── TicketController.java
  │    │    │    │    ├── UserController.java
+ │    │    │    │    ├── AuthController.java   # NEW (Handles login & JWT generation)
  │    │    │    ├── 📂 model
  │    │    │    │    ├── Ticket.java
  │    │    │    │    ├── User.java
@@ -50,13 +51,15 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    │    ├── TicketService.java
  │    │    │    │    ├── UserService.java
  │    │    │    ├── 📂 security
- │    │    │    │    ├── SecurityConfig.java
+ │    │    │    │    ├── JwtUtil.java         # NEW (JWT token utility)
+ │    │    │    │    ├── JwtFilter.java       # NEW (Intercepts and validates JWT)
+ │    │    │    │    ├── SecurityConfig.java  # NEW (Spring Security configuration)
  │    │    │    ├── ITHelpdeskApplication.java
  │    │    ├── 📂 resources
  │    │    │    ├── application.properties
- ├── 📂 pom.xml
- ├── 📂 README.md
- ├── .gitignore
+ ├── 📄 pom.xml
+ ├── 📄 README.md
+
 ```
 
 ---
