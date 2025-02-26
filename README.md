@@ -61,14 +61,30 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  ├── 📄 README.md
 
 ```
+📂 IT-Helpdesk-Frontend
+ ├── 📂 public
+ │    ├── index.html
+ ├── 📂 src
+ │    ├── 📂 components
+ │    │    ├── Login.js         # User authentication
+ │    │    ├── Dashboard.js     # Viewing & managing tickets
+ │    │    ├── CreateTicket.js  # Form to submit new tickets
+ │    │    ├── Navbar.js        # Top navigation bar
+ │    ├── 📂 services
+ │    │    ├── authService.js   # Handles login & JWT storage
+ │    │    ├── ticketService.js # Handles ticket API interactions
+ │    ├── App.js                # Main application
+ │    ├── index.js              # Entry point
+ ├── 📄 package.json
+ ├── 📄 README.md
 
 ---
 
 ## 🚀 Getting Started
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/it-helpdesk.git
-cd it-helpdesk
+git clone https://github.com/rajveersidhu/IT-Helpdesk-Ticketing-System.git
+cd IT-Helpdesk-Ticketing-System
 ```
 
 ### 2️⃣ **Set Up MySQL Database**
