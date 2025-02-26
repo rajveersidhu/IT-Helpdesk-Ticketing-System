@@ -23,3 +23,15 @@ public class TicketController {
         return ticketService.createTicket(ticket);
     }
 }
+
+@PutMapping("/{ticketId}/assign")
+public ResponseEntity<?> assignTicket(@PathVariable Long ticketId, @RequestParam Long userId) {
+    ticketService.assignTicket(ticketId, userId);
+    return ResponseEntity.ok("Ticket assigned successfully!");
+}
+
+@PutMapping("/{ticketId}/update-status")
+public ResponseEntity<?> updateStatus(@PathVariable Long ticketId, @RequestParam String status) {
+    ticketService.updateTicketStatus(ticketId, Status.valueOf(status.toUpperCase()));
+    return ResponseEntity.ok("Ticket status updated!");
+}
