@@ -53,3 +53,21 @@ public void updateTicketStatus(Long ticketId, Status status) {
         "The status of your assigned ticket has been updated:\n\nSubject: " + ticket.getSubject() + 
         "\nNew Status: " + status);
 }
+@Autowired
+private NotificationService notificationService;
+
+public Ticket createTicket(Ticket ticket) {
+    Ticket savedTicket = ticketRepository.save(ticket);
+    notificationService.sendNotification("/topic/tickets", "New Ticket Created: " + ticket.getSubject());
+    return savedTicket;
+}
+
+public void assignTicket(Long ticketId, Long userId) {
+    Ticket ticket = ticketRepository.findById(ticketId).orElseThrow(() -> new RuntimeException("Ticket not found"));
+    User assignedUser = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("User not found"));
+
+    ticket.setAssignedTo(assignedUser);
+    ticketRepository.save(ticket);
+
+    notificationService.sendNotification("/topic/tickets", "Ticket Assigned to " + assignedUser.getEmail());
+}
