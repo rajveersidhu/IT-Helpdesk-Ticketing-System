@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ticketService from "../services/ticketService";
+import Notifications from "./Notifications";
 
 const Dashboard = () => {
     const [tickets, setTickets] = useState([]);
