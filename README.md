@@ -29,7 +29,7 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
 ---
 ## 📂 Project Structure
 ```
-📂 IT-Helpdesk-System
+📂 IT-Helpdesk-Ticketing-System
  ├── 📂 backend                   # Spring Boot backend
  │    ├── 📂 src/main/java/com/helpdesk
  │    │    ├── 📂 controller        # API endpoints
