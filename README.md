@@ -28,26 +28,34 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
 
 ---
 
-## 📂 Project Structure
-```
 📂 IT-Helpdesk-Ticketing-System
- ├── 📂 backend
- │    ├── src/main/java/com/helpdesk
- │    │    ├── controller/  # REST API controllers
- │    │    ├── model/       # Entity classes (User, Ticket)
- │    │    ├── repository/  # Database repository
- │    │    ├── service/     # Business logic
- │    │    ├── config/      # Security and application configs
- │    ├── application.properties
- │    ├── pom.xml (Maven Dependencies)
- │
- ├── 📂 frontend (optional)
- │    ├── src/
- │    ├── package.json
- │    ├── index.html
- │
- ├── README.md
- ├── .gitignore
+ ├── 📂 src
+ │    ├── 📂 main
+ │    │    ├── 📂 java/com/helpdesk
+ │    │    │    ├── 📂 controller
+ │    │    │    │    ├── TicketController.java
+ │    │    │    │    ├── UserController.java
+ │    │    │    ├── 📂 model
+ │    │    │    │    ├── Ticket.java
+ │    │    │    │    ├── User.java
+ │    │    │    │    ├── enums
+ │    │    │    │    │    ├── Priority.java
+ │    │    │    │    │    ├── Status.java
+ │    │    │    │    │    ├── Role.java
+ │    │    │    ├── 📂 repository
+ │    │    │    │    ├── TicketRepository.java
+ │    │    │    │    ├── UserRepository.java
+ │    │    │    ├── 📂 service
+ │    │    │    │    ├── TicketService.java
+ │    │    │    │    ├── UserService.java
+ │    │    │    ├── 📂 security
+ │    │    │    │    ├── SecurityConfig.java
+ │    │    │    ├── ITHelpdeskApplication.java
+ │    │    ├── 📂 resources
+ │    │    │    ├── application.properties
+ ├── 📂 pom.xml
+ ├── 📂 README.md
+
 ```
 
 ---
