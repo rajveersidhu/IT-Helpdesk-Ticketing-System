@@ -36,6 +36,8 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    │    ├── AuthController.java
  │    │    │    ├── TicketController.java
  │    │    │    ├── UserController.java
+ │    │    ├── 📂 config
+ │    │    │    ├── MailConfig.java   # NEW: Configures email settings
  │    │    ├── 📂 model             # Data models (entities)
  │    │    │    ├── Ticket.java
  │    │    │    ├── User.java
@@ -49,6 +51,7 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  │    │    ├── 📂 service           # Business logic
  │    │    │    ├── TicketService.java
  │    │    │    ├── UserService.java
+ │    │    │    ├── EmailService.java  # NEW: Handles sending emails
  │    │    ├── 📂 security          # JWT-based authentication & security
  │    │    │    ├── JwtUtil.java
  │    │    │    ├── JwtFilter.java
