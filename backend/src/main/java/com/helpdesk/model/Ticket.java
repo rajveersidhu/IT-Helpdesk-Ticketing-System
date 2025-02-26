@@ -1,29 +1,26 @@
 package com.helpdesk.model;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
 @Entity
-@Table(name = "tickets")
+@Getter
+@Setter
 public class Ticket {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
-    @Column(nullable = false)
+
     private String subject;
-    
-    @Column(nullable = false)
     private String description;
-    
-    @Enumerated(EnumType.STRING)
+
+    @Enumerated(EnumType.STRING)  // Correct Priority reference
     private Priority priority;
-    
-    @Enumerated(EnumType.STRING)
+
+    @Enumerated(EnumType.STRING)  // Correct Status reference
     private Status status;
 
-    @ManyToOne
-    @JoinColumn(name = "assigned_to")
-    private User assignedTo;
+    private Long assignedUserId;
 }

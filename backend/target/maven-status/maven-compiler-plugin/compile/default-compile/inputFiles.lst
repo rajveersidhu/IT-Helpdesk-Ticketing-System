@@ -1,20 +1,23 @@
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\config\MailConfig.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\ITHelpdeskApplication.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\repository\UserRepository.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\controller\TicketController.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\User.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\NotificationService.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\EmailService.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Status.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\config\WebSocketConfig.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Role.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\repository\TicketRepository.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\TicketService.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\UserService.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\JwtUtil.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\controller\UserController.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Priority.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\JwtFilter.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\SecurityConfig.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\controller\AuthController.java
-C:\Users\sidhuraj\OneDrive - University of the Fraser Valley\Documents\GitHub\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\Ticket.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\controller\UserController.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\JwtUtil.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\TicketService.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Role.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\repository\TicketRepository.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Status.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\NotificationService.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\EmailService.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\SecurityConfig.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\Role.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\controller\AuthController.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\User.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\controller\TicketController.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\ITHelpdeskApplication.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Priority.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\config\WebSocketConfig.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\Priority.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\Status.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\repository\UserRepository.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\Ticket.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\UserService.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\config\MailConfig.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\JwtFilter.java
