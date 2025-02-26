@@ -3,6 +3,7 @@ C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\JwtU
 C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\TicketService.java
 C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Role.java
 C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\repository\TicketRepository.java
+C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\security\CustomUserDetailsService.java
 C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\model\enums\Status.java
 C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\NotificationService.java
 C:\IT-Helpdesk-Ticketing-System\backend\src\main\java\com\helpdesk\service\EmailService.java
