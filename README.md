@@ -79,7 +79,6 @@ An **IT Helpdesk Ticketing System** designed to manage and streamline **technica
  ├── 📄 .gitignore                # Ignore unnecessary files
  ├── 📄 README.md                 # Monorepo documentation
 
----
 
 ## 🚀 Getting Started
 ### 1️⃣ **Clone the Repository**
