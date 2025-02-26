@@ -1,4 +1,4 @@
-**IT Helpdesk Ticketing System**  
+## **IT Helpdesk Ticketing System**  
 🔹 **Tech Stack:** Java (Spring Boot), MySQL/PostgreSQL, REST API, Swing/JavaFX (optional for GUI), React (optional for frontend)  
 
 ---
