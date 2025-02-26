@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import CreateTicket from "./components/CreateTicket";
+import AdminPanel from "./components/AdminPanel";
+import AssignTicket from "./components/AssignTicket";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/create-ticket" element={<CreateTicket />} />
+                <Route path="/admin" element={<AdminPanel />} />
+                <Route path="/assign-ticket/:ticketId" element={<AssignTicket />} />
             </Routes>
         </div>
     );
